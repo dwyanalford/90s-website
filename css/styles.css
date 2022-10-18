@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url('../images/background-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: cursive;
+}
+
+h2, h3, h4, p, a, span {
+    font-family:'Times New Roman', Times, serif
+}
+
+a {
+    border-radius: 100px;
+    border-width: 1px;
+    box-shadow: inset;
+    background: aqua;
+}
+
+img {
+    width: 100px;
+    height: 200px;
+}
+
+.column {
+    float: left;
+    height: 100%;
+  }
+
+  /* left column */
+ #left {
+    width: 23%;
+    border-left: 1px solid blue;
+    /* background-color: aqua; */
+  }
+
+   /* right column */
+ #right {
+    width: 75%;
+    /* background-color: blue; */
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
